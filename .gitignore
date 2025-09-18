@@ -14,3 +14,5 @@ wheels/
 screenshots/
 dist/
 *.spec
+database.db
+config.py
