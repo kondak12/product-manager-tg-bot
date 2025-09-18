@@ -10,10 +10,10 @@ class User:
 
 @dataclass(frozen=True)
 class Task:
-    id: int
-    user_id: int
-    name: int
+    task_id: int
+    name: str
     description: str
+    created_at: datetime
     deadline: datetime
     priority: str
     complete: bool
